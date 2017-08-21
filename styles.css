@@ -1,0 +1,149 @@
+/* add your CSS here */
+/* This is where you add styles for all of the text in HTML */
+html {
+font-family: cursive;
+font-size: 14px;
+}
+
+/* This is where you apply styles to card as a whole. Add background, border, box-shadow,
+padding, and width
+1. ADD SOLID BLUE BORDER AROUND CARD
+2. ADD SQUARE  BORDER USING RADIUS
+3. THICKEN BORDER USING BORDER WIDTH
+4. SET CARD WIDTH / HEIGHT
+5. ADD BORDER RADIANT
+6. ADD BACKGROUND IMAGE
+ */
+.whole-card {
+width: 350px;
+height: 550px;
+border-style: solid;
+border-color: #437aff;
+border-radius: 8px;
+border-width: 7px;
+box-shadow: 5px 5px 7px grey;
+background-image: url(https://4.bp.blogspot.com/-PKw9bIKTpAE/V36vSv2z5HI/AAAAAAAAy3U/bnr341KIC9M-p8i1Wf42Pxl7P9jRdVhVwCLcB/s640/Painting%2Bof%2Brocks%2B%2526%2Bwater%2Bat%2Bthe%2BLewis%2BRiver%252C%2Bin%2BWashington%252C%2BTom%2BWheeler.jpg);
+background-repeat: repeat;
+background-size: cover;
+}
+
+
+
+
+/* This is where you style the top as a whole */
+.card-top {
+
+}
+
+/* This is where you stiyle box turtle image in top. img tag specifically states this goes around
+image */
+.top-image img{
+height: 195px;
+width: 300px;
+border-style: solid;
+border-color:  #f2f6fc;
+border-radius: 5px;
+/*Margin sets the space outside of the border */
+margin-top: 7px;
+margin-bottom: 7px;
+margin-right: 20px;
+margin-left: 20px;
+
+}
+
+/*This is where you add styles specifically for the area where the animal's name is */
+.animal-name-title {
+font-size: 20px;
+color: white;
+text-align: center;
+height: 26px;
+}
+
+/*This link helped me to figure out how to change the opacity of the background box without
+changing the opacity of the text:
+ https://stackoverflow.com/questions/806000/how-do-i-give-text-or-an-image-a-transparent-background-using-css */
+
+ /* This is where you apply styles for the box behind the animal's name */
+.animal-name {
+border-style: solid;
+border-color: #f2f6fc;
+border-radius: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 3px;
+padding-right: 3px;
+margin-top: 3px;
+margin-bottom: 2px;
+margin-left: 20px;
+margin-right: 20px;
+
+/* NOTE ABOUT OPACTIY: color: rgba(255, 255, 255, 0.5); Just like rgb() the first three
+values are red, green and blue.
+You can specify these 0-255 or 0%-100%. The fourth value is the opacity level from
+0 (completely transparent) to 1 (completely opaque). Basically, "a" = opacity.*/
+
+background-color:rgba(255,0,0,0.5);
+opacity: 0.8;
+}
+
+
+
+/* This is where you apply styles to card bottom */
+.card-bottom {
+}
+
+.animal-information {
+border-style: solid;
+height: 215px;
+border-color: #f2f6fc;
+border-radius: 5px;
+/* Padding adds space between text and border */
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+/*Margin sets the space outside of the border */
+margin-top: 6px;
+margin-bottom: 10px;
+margin-right: 20px;
+margin-left: 20px;
+background-color: rgba(67, 122, 255, 0.90);
+}
+
+/* This is where you add styles for the list */
+ul {
+list-style-type: none;
+list-style-position: inside;
+margin: 0;
+padding: 0;
+}
+
+/*This is where you apply styles for the list item names */
+span {
+font-weight: bold;
+
+}
+
+/*This is where you style interesting fact info */
+.interesting-fact {
+font-style: italic;
+font-size: 11px;
+}
+
+/*This is where you apply styles for the list items */
+.list-items {
+font-size: 10px;
+}
+
+/*This is where you apply styles for the turtle emoji*/
+.turtle-emoji {
+float: right;
+content:url(http://www.marksmithnaturetours.com/graphics/brazil/turtle-clipart.gif);
+height: 40px;
+}
+
+/*This is where you style the animal description info */
+.animal-description {
+  font-size: 10px;
+
+}

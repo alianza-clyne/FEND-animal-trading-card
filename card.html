@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<!--
+1.  Replace title with "Box Turtle"  X
+2. Replace placeholder image with svg turtle image  & change ALT
+3. Link styles.css to cards.html
+_____________
+CSS
+_____________
+1. Change image size  to 300 px width X
+2. The text is italicized for the animal’s interesting fact. X
+3. The labels are bolded for the animal’s list items. X
+4. The dots are removed from the animal's list items. X
+5. Uses border around animal’s name, image, and information (interesting fact, list items,
+and description) so ADD BORDER FOR WHOLE CARD X
+6. Uses border around animal’s information. Add div for animal-information. THEN ADD
+BORDER FOR ANIMAL INFO X
+7. Uses spacing between animal’s name, image, and information.
+8. Card width should be fixed and include the spacing around the image aka PADDING
+(Since image is 300px wide, card should be 300px + spacing on either side.
+Card should not expand with the browser window). X
+9. Add shadow effect around card X
+
+-->
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="whole-card">
+
+				<div class="card-top">
+							<div class="animal-name">
+								<!-- your favorite animal's name goes here -->
+								<h3 class="animal-name-title">Box Turtle</h3>
+							</div>
+							<div class="animal-name-opacity"> </div>
+
+					<div class="top-image">
+									<!-- Link to image for card -->
+									<img src="http://www.turtlejournal.com/terrapindiary/lewis02/gallery/06-05-1.jpg" alt="Box Turtle">
+					</div>
+				</div>
+
+					<div class="card-bottom">
+						<div class="animal-information">
+							<!-- your favorite animal's interesting fact goes here -->
+							<p class="interesting-fact">The captivating box turtle is a type of reptile that belongs to
+								a group of marsh turtles. Known for dwelling in woodlands, brushy grasslands and areas near
+								 the streams and ponds,  these friendly creatures often occupy territory of 750 feet in diameter.  </p>
+							<ul>
+								<!-- your favorite animal's list items go here -->
+								<li class="list-items"><span>Scientific Name</span>: Terrapene</li>
+								<li class="list-items"><span>Average Length</span>: 8 Inhes</li>
+								<li class="list-items turtle-emoji"></li>
+								<li class="list-items"><span>Average Lifespan</span>: 50 years </li>
+								<li class="list-items"><span>Hibernation</span>: Mid-September to mid-October</li>
+							</ul>
+							<!-- your favorite animal's description goes here -->
+							<p class="animal-description">The box turtle’s name is derived from the structure of its shell
+								which consists of a high domed carapace (upper shell), and large, hinged plastron (lower shell).
+							</p>
+						</div>
+					</div>
+	</div>
+</body>
+</html>
