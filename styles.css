@@ -5,15 +5,6 @@ font-family: cursive;
 font-size: 14px;
 }
 
-/* This is where you apply styles to card as a whole. Add background, border, box-shadow,
-padding, and width
-1. ADD SOLID BLUE BORDER AROUND CARD
-2. ADD SQUARE  BORDER USING RADIUS
-3. THICKEN BORDER USING BORDER WIDTH
-4. SET CARD WIDTH / HEIGHT
-5. ADD BORDER RADIANT
-6. ADD BACKGROUND IMAGE
- */
 .whole-card {
 width: 350px;
 height: 550px;
@@ -27,12 +18,8 @@ background-repeat: repeat;
 background-size: cover;
 }
 
-
-
-
 /* This is where you style the top as a whole */
 .card-top {
-
 }
 
 /* This is where you stiyle box turtle image in top. img tag specifically states this goes around
@@ -85,8 +72,6 @@ You can specify these 0-255 or 0%-100%. The fourth value is the opacity level fr
 background-color:rgba(255,0,0,0.5);
 opacity: 0.8;
 }
-
-
 
 /* This is where you apply styles to card bottom */
 .card-bottom {
@@ -145,5 +130,4 @@ height: 40px;
 /*This is where you style the animal description info */
 .animal-description {
   font-size: 10px;
-
 }
